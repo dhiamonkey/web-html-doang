@@ -1,0 +1,23 @@
+{
+  "name": "web-html-doang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhiamonkey/web-html-doang.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhiamonkey/web-html-doang/issues"
+  },
+  "homepage": "https://github.com/dhiamonkey/web-html-doang#readme",
+  "dependencies": {
+    "@netlify/functions": "^1.3.0"
+  },
+  "devDependencies": {}
+}

@@ -18,13 +18,42 @@
 
 <body>
 
+  <form id="form">
+    <label for="increment">Increment:</label><br>
+    <input type="number" id="increment" name="increment" min="1" max="10" value="1"><br>
+    <input type="button" value="Submit" onclick="submitForm()">
+  </form>
+
+  <script>
+    async function submitForm() {
+      // Get the value to increment
+      const value = document.getElementById('increment').value;
+
+      // Send a POST request to the function
+      const response = await fetch('/.netlify/functions/hello', {
+        method: 'POST',
+        body: JSON.stringify({ value }),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+
+      // Get the incremented value from the response
+      const { value: incrementedValue } = await response.json();
+
+      // Display the incremented value
+      alert(incrementedValue);
+    }
+  </script>
+
+
   <div id="doc2" class="yui-t7">
     <div id="inner">
 
       <header id="hd">
         <div class="yui-gc">
           <div class="yui-u first">
-            <h1>Dhia</h1>
+            <h1>Dhia Muhammad</h1>
             <h2>Software Engineer, Writer</h2>
           </div>
 
