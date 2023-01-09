@@ -7,8 +7,8 @@ const handler: Handler = async function (
 ) {
   const { identity, user } = context.clientContext;
   console.log("logging");
-  console.log(identity);
-  console.log(user);
+  console.log(identity, "<--- THIS IS identity");
+  console.log(user, "<--- This is user");
   // Do stuff and return a response...
   return {
     statusCode: 200,
