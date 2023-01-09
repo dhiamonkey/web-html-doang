@@ -1,0 +1,64 @@
+Jan 10, 04:56:07 AM: 98aa6f39 INFO   {
+  callbackWaitsForEmptyEventLoop: [Getter/Setter],
+  succeed: [Function (anonymous)],
+  fail: [Function (anonymous)],
+  done: [Function (anonymous)],
+  functionVersion: '$LATEST',
+  functionName: 'a473243f5a74a0a2b5366a902c4208389628a107bf00a49d4954a425c35f2199',
+  memoryLimitInMB: '1024',
+  logGroupName: '/aws/lambda/a473243f5a74a0a2b5366a902c4208389628a107bf00a49d4954a425c35f2199',
+  logStreamName: '2023/01/09/[$LATEST]df03239ce7764cf380349df6502978d8',
+  clientContext: {
+    custom: {
+      netlify: 'eyJpZGVudGl0eSI6eyJ1cmwiOiJodHRwczovL2pvbmh0bWwubmV0bGlmeS5hcHAvLm5ldGxpZnkvaWRlbnRpdHkiLCJ0b2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpsZUhBaU9qRTJOek16TURFME1qY3NJbk4xWWlJNklqQWlmUS5PY1V2UHFid0EyVy1hY29YLVBfMUxYWnhRdHpVdVN0ektEcW9MVW0ydW04In0sInNpdGVfdXJsIjoiaHR0cHM6Ly9qb25odG1sLm5ldGxpZnkuYXBwIn0='
+    },
+    identity: {
+      url: 'https://jonhtml.netlify.app/.netlify/identity',
+      token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzMzMDE0MjcsInN1YiI6IjAifQ.OcUvPqbwA2W-acoX-P_1LXZxQtzUuStzKDqoLUm2um8'
+    }
+  },
+  identity: undefined,
+  invokedFunctionArn: 'arn:aws:lambda:us-east-1:560477221814:function:a473243f5a74a0a2b5366a902c4208389628a107bf00a49d4954a425c35f2199',
+  awsRequestId: '98aa6f39-af73-464a-9c6e-edbac48a3b3c',
+  getRemainingTimeInMillis: [Function: getRemainingTimeInMillis]
+}Jan 10, 04:56:07 AM: 98aa6f39 INFO   
+eventJan 10, 04:56:07 AM: 98aa6f39 INFO   {
+  rawUrl: 'https://jonhtml.netlify.app/.netlify/functions/identity-login',
+  rawQuery: '',
+  path: '/.netlify/functions/identity-login',
+  httpMethod: 'POST',
+  headers: {
+    'X-Nf-Graph-Token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwczovL25ldGxpZnkuY29tL2p3dC9jbGFpbXMiOnsic2l0ZV9pZCI6IjQ5MTEwNGI5LTliNmQtNDQxZi1hYmFkLTRkYjJiMDRhYzMyYiIsImF1dGhsaWZ5X3Rva2VuX2lkIjoiYzkwMDQzZDQtM2U4Zi00MzJhLWI5MDAtNzQ5YzU5Y2Q2YTM3In0sImV4cCI6MTY3MzMwMjI2NywiaWF0IjoxNjczMzAxMzY3LCJpc3MiOiJuZXRsaWZ5Iiwic3ViIjoiMCJ9.JpaUTz2ZQR5Fzp2cwoWrWv0FtT_1IsXtlMsfJOERkHo',
+    'accept-encoding': 'gzip',
+    'content-length': '415',
+    'content-type': 'application/json',
+    host: 'jonhtml.netlify.app',
+    'user-agent': 'Go-http-client/2.0',
+    'x-country': 'US',
+    'x-forwarded-for': '34.72.199.89, 100.64.0.99',
+    'x-forwarded-proto': 'https',
+    'x-nf-client-connection-ip': '34.72.199.89',
+    'x-nf-request-id': '01GPC8H66BX83RYHPPPS2YQT0T',
+    'x-webhook-signature': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzMzMDEzNjYsImlzcyI6ImdvdHJ1ZSIsInN1YiI6ImNhODc0MjMxLThmZjQtNGQ0Yy04OWZhLTdkZWYzMjJiY2JmMCIsInNoYTI1NiI6IjE2NWVhMWFhNDgxNjE5NWQ5ZmExZTFmZDFiOTg2NjYxNzAxNjZiYjQ0N2E2YWI2ZGJkYjU4ZDAwMzQ3YzQxYTQifQ.PU-vG56LIKtYm04PE9Ymj1Zq81EjpRWqnuYdRVpcMRw'
+  },
+  multiValueHeaders: {
+    'Accept-Encoding': [ 'gzip' ],
+    'Content-Length': [ '415' ],
+    'Content-Type': [ 'application/json' ],
+    'User-Agent': [ 'Go-http-client/2.0' ],
+    'X-Country': [ 'US' ],
+    'X-Forwarded-For': [ '34.72.199.89, 100.64.0.99' ],
+    'X-Forwarded-Proto': [ 'https' ],
+    'X-Nf-Client-Connection-Ip': [ '34.72.199.89' ],
+    'X-Nf-Request-Id': [ '01GPC8H66BX83RYHPPPS2YQT0T' ],
+    'X-Webhook-Signature': [
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzMzMDEzNjYsImlzcyI6ImdvdHJ1ZSIsInN1YiI6ImNhODc0MjMxLThmZjQtNGQ0Yy04OWZhLTdkZWYzMjJiY2JmMCIsInNoYTI1NiI6IjE2NWVhMWFhNDgxNjE5NWQ5ZmExZTFmZDFiOTg2NjYxNzAxNjZiYjQ0N2E2YWI2ZGJkYjU4ZDAwMzQ3YzQxYTQifQ.PU-vG56LIKtYm04PE9Ymj1Zq81EjpRWqnuYdRVpcMRw'
+    ],
+    host: [ 'jonhtml.netlify.app' ]
+  },
+  queryStringParameters: {},
+  multiValueQueryStringParameters: {},
+  body: '{"event":"login","instance_id":"ca874231-8ff4-4d4c-89fa-7def322bcbf0","user":{"id":"9d5dc2fc-7366-4941-92c6-dcc71d67a0c8","aud":"","role":"","email":"dhia.rizqullah@zeniuseducation.com","confirmed_at":"2023-01-05T03:54:24Z","confirmation_sent_at":"2023-01-05T03:53:43Z","app_metadata":{"provider":"email"},"user_metadata":{"full_name":"jon"},"created_at":"2023-01-05T03:53:43Z","updated_at":"2023-01-05T03:53:43Z"}}',
+  isBase64Encoded: false,
+  netlifyGraphToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwczovL25ldGxpZnkuY29tL2p3dC9jbGFpbXMiOnsic2l0ZV9pZCI6IjQ5MTEwNGI5LTliNmQtNDQxZi1hYmFkLTRkYjJiMDRhYzMyYiIsImF1dGhsaWZ5X3Rva2VuX2lkIjoiYzkwMDQzZDQtM2U4Zi00MzJhLWI5MDAtNzQ5YzU5Y2Q2YTM3In0sImV4cCI6MTY3MzMwMjI2NywiaWF0IjoxNjczMzAxMzY3LCJpc3MiOiJuZXRsaWZ5Iiwic3ViIjoiMCJ9.JpaUTz2ZQR5Fzp2cwoWrWv0FtT_1IsXtlMsfJOERkHo'
+}
