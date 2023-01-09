@@ -1,4 +1,4 @@
-// why this function is not called by netlify dev
+// identity-validate.ts
 import { Handler, HandlerEvent, HandlerContext } from "@netlify/functions";
 
 interface ClientContext {
@@ -10,19 +10,15 @@ const handler: Handler = async function (
   event: HandlerEvent,
   context: HandlerContext
 ) {
-  const clientContext = context.clientContext as ClientContext;
-  const { identity, user } = clientContext;
-  console.log("logging");
-  console.log(identity, "<--- THIS IS identity");
-  console.log(user, "<--- This is user");
-  console.log("===============logging-identity-login===============");
+  const { identity, user } = context.clientContext as ClientContext;
+  console.log("===============logging-identity-validate===============");
 
   console.log("\ncontext\n");
   console.log(context);
 
   console.log("\nevent\n");
   console.log(event);
-  // Do stuff and return a response...
+
   return {
     statusCode: 200,
   };
