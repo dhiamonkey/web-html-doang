@@ -1,11 +1,17 @@
 // why this function is not called by netlify dev
 import { Handler, HandlerEvent, HandlerContext } from "@netlify/functions";
 
+interface ClientContext {
+  identity: { [key: string]: any };
+  user: { [key: string]: any };
+}
+
 const handler: Handler = async function (
   event: HandlerEvent,
   context: HandlerContext
 ) {
-  const { identity, user } = context.clientContext;
+  const clientContext = context.clientContext as ClientContext;
+  const { identity, user } = clientContext;
   console.log("logging");
   console.log(identity, "<--- THIS IS identity");
   console.log(user, "<--- This is user");
