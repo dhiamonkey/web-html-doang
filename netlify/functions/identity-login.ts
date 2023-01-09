@@ -12,7 +12,6 @@ const handler: Handler = async function (
   // Do stuff and return a response...
   return {
     statusCode: 200,
-    body: JSON.stringify({ url: user.url, email: identity.email }),
   };
 };
 
