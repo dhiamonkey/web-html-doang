@@ -10,7 +10,8 @@ const handler: Handler = async function (
   event: HandlerEvent,
   context: HandlerContext
 ) {
-  const { identity, user } = context.clientContext as ClientContext;
+  const clientContext = context.clientContext as ClientContext;
+  const { identity, user } = clientContext;
   console.log("===============logging-identity-signup===============");
 
   console.log("\ncontext\n");
