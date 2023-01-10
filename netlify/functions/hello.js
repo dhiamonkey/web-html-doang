@@ -1,3 +1,25 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBHDMBPD5osuRMeeaPw7ZAZUcUSoKtf9-w",
+  authDomain: "promising-haiku-356606.firebaseapp.com",
+  projectId: "promising-haiku-356606",
+  storageBucket: "promising-haiku-356606.appspot.com",
+  messagingSenderId: "756974106029",
+  appId: "1:756974106029:web:1f6f1f9307272db87cdd24",
+  measurementId: "G-TP3LL90V6Z",
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
 const mysql = require("mysql2");
 const connection = mysql.createConnection(process.env.DATABASE_URL);
 

@@ -1,0 +1,65 @@
+Jan 10, 09:54:18 AM: 35072bf8 INFO   ===============logging-identity-signup===============Jan 10, 09:54:18 AM: 35072bf8 INFO   
+contextJan 10, 09:54:18 AM: 35072bf8 INFO   {
+  callbackWaitsForEmptyEventLoop: [Getter/Setter],
+  succeed: [Function (anonymous)],
+  fail: [Function (anonymous)],
+  done: [Function (anonymous)],
+  functionVersion: '$LATEST',
+  functionName: '510504818c7530f800f18c176f5b68f0ca7f7bb4991305a11cb884470005d592',
+  memoryLimitInMB: '1024',
+  logGroupName: '/aws/lambda/510504818c7530f800f18c176f5b68f0ca7f7bb4991305a11cb884470005d592',
+  logStreamName: '2023/01/10/[$LATEST]a968a3086bb24e05bb06b4e83874deec',
+  clientContext: {
+    custom: {
+      netlify: 'eyJpZGVudGl0eSI6eyJ1cmwiOiJodHRwczovL2pvbmh0bWwubmV0bGlmeS5hcHAvLm5ldGxpZnkvaWRlbnRpdHkiLCJ0b2tlbiI6ImV5SmhiR2NpT2lKSVV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpsZUhBaU9qRTJOek16TVRrek1UZ3NJbk4xWWlJNklqQWlmUS5ESnpMSnowaEl2UEExV3Y2UzZXTWlYWkR6bzFCNUVlY1AwbHJlaWNVNFAwIn0sInNpdGVfdXJsIjoiaHR0cHM6Ly9qb25odG1sLm5ldGxpZnkuYXBwIn0='
+    },
+    identity: {
+      url: 'https://jonhtml.netlify.app/.netlify/identity',
+      token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NzMzMTkzMTgsInN1YiI6IjAifQ.DJzLJz0hIvPA1Wv6S6WMiXZDzo1B5EecP0lreicU4P0'
+    }
+  },
+  identity: undefined,
+  invokedFunctionArn: 'arn:aws:lambda:us-east-1:123818897194:function:510504818c7530f800f18c176f5b68f0ca7f7bb4991305a11cb884470005d592',
+  awsRequestId: '35072bf8-ba0e-4823-8f32-18db51898690',
+  getRemainingTimeInMillis: [Function: getRemainingTimeInMillis]
+}Jan 10, 09:54:18 AM: 35072bf8 INFO   
+eventJan 10, 09:54:18 AM: 35072bf8 INFO   {
+  rawUrl: 'https://jonhtml.netlify.app/.netlify/functions/identity-signup',
+  rawQuery: '',
+  path: '/.netlify/functions/identity-signup',
+  httpMethod: 'POST',
+  headers: {
+    'X-Nf-Graph-Token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwczovL25ldGxpZnkuY29tL2p3dC9jbGFpbXMiOnsic2l0ZV9pZCI6IjQ5MTEwNGI5LTliNmQtNDQxZi1hYmFkLTRkYjJiMDRhYzMyYiIsImF1dGhsaWZ5X3Rva2VuX2lkIjoiYzkwMDQzZDQtM2U4Zi00MzJhLWI5MDAtNzQ5YzU5Y2Q2YTM3In0sImV4cCI6MTY3MzMyMDE1OCwiaWF0IjoxNjczMzE5MjU4LCJpc3MiOiJuZXRsaWZ5Iiwic3ViIjoiMCJ9.W3Chi5HsKzni18ZDdzg47lcRD8q8PdIMfjIgKl9xOwc',
+    'accept-encoding': 'gzip',
+    'content-length': '389',
+    'content-type': 'application/json',
+    host: 'jonhtml.netlify.app',
+    'user-agent': 'Go-http-client/2.0',
+    'x-country': 'US',
+    'x-forwarded-for': '104.198.187.68, 100.64.0.180',
+    'x-forwarded-proto': 'https',
+    'x-nf-client-connection-ip': '104.198.187.68',
+    'x-nf-request-id': '01GPCSK6FADG3NFD7FR97J9XS3',
+    'x-webhook-signature': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzMzMTkyNTgsImlzcyI6ImdvdHJ1ZSIsInN1YiI6ImNhODc0MjMxLThmZjQtNGQ0Yy04OWZhLTdkZWYzMjJiY2JmMCIsInNoYTI1NiI6IjQ2NjE2ZTBlNDExNGE2MWM4NGU3YTg2Y2ZkODkyODM3N2NlZmU1YmI2ZGE5MjNkOTZhZjc0NjA3MjVjYTQyOTEifQ.zodD87cR8wwkfPyWk2LZSjmCDuIBrKTN7BxzSNN-86A'
+  },
+  multiValueHeaders: {
+    'Accept-Encoding': [ 'gzip' ],
+    'Content-Length': [ '389' ],
+    'Content-Type': [ 'application/json' ],
+    'User-Agent': [ 'Go-http-client/2.0' ],
+    'X-Country': [ 'US' ],
+    'X-Forwarded-For': [ '104.198.187.68, 100.64.0.180' ],
+    'X-Forwarded-Proto': [ 'https' ],
+    'X-Nf-Client-Connection-Ip': [ '104.198.187.68' ],
+    'X-Nf-Request-Id': [ '01GPCSK6FADG3NFD7FR97J9XS3' ],
+    'X-Webhook-Signature': [
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NzMzMTkyNTgsImlzcyI6ImdvdHJ1ZSIsInN1YiI6ImNhODc0MjMxLThmZjQtNGQ0Yy04OWZhLTdkZWYzMjJiY2JmMCIsInNoYTI1NiI6IjQ2NjE2ZTBlNDExNGE2MWM4NGU3YTg2Y2ZkODkyODM3N2NlZmU1YmI2ZGE5MjNkOTZhZjc0NjA3MjVjYTQyOTEifQ.zodD87cR8wwkfPyWk2LZSjmCDuIBrKTN7BxzSNN-86A'
+    ],
+    host: [ 'jonhtml.netlify.app' ]
+  },
+  queryStringParameters: {},
+  multiValueQueryStringParameters: {},
+  body: '{"event":"signup","instance_id":"ca874231-8ff4-4d4c-89fa-7def322bcbf0","user":{"id":"c5c186bd-237e-4a8b-af54-422a3cfd1f72","aud":"","role":"","email":"thecrestfallenknight@gmail.com","confirmation_sent_at":"2023-01-10T02:54:01Z","app_metadata":{"provider":"email"},"user_metadata":{"full_name":"crestfallen knight"},"created_at":"2023-01-10T02:54:01Z","updated_at":"2023-01-10T02:54:01Z"}}',
+  isBase64Encoded: false,
+  netlifyGraphToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwczovL25ldGxpZnkuY29tL2p3dC9jbGFpbXMiOnsic2l0ZV9pZCI6IjQ5MTEwNGI5LTliNmQtNDQxZi1hYmFkLTRkYjJiMDRhYzMyYiIsImF1dGhsaWZ5X3Rva2VuX2lkIjoiYzkwMDQzZDQtM2U4Zi00MzJhLWI5MDAtNzQ5YzU5Y2Q2YTM3In0sImV4cCI6MTY3MzMyMDE1OCwiaWF0IjoxNjczMzE5MjU4LCJpc3MiOiJuZXRsaWZ5Iiwic3ViIjoiMCJ9.W3Chi5HsKzni18ZDdzg47lcRD8q8PdIMfjIgKl9xOwc'
+}Jan 10, 09:54:18 AM: 35072bf8 Duration: 13.61 ms	Memory Usage: 58 MB	Init Duration: 187.54 ms
